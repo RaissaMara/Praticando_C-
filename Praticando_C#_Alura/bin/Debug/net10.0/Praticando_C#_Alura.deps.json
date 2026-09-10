@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Praticando_C#_Alura/1.0.0": {
+        "runtime": {
+          "Praticando_C#_Alura.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Praticando_C#_Alura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

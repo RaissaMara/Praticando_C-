@@ -1,0 +1,14 @@
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\bin\Debug\net10.0\Praticando_C#_Alura.exe
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\bin\Debug\net10.0\Praticando_C#_Alura.deps.json
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\bin\Debug\net10.0\Praticando_C#_Alura.runtimeconfig.json
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\bin\Debug\net10.0\Praticando_C#_Alura.dll
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\bin\Debug\net10.0\Praticando_C#_Alura.pdb
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\Praticando_C#_Alura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\Praticando_C#_Alura.AssemblyInfoInputs.cache
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\Praticando_C#_Alura.AssemblyInfo.cs
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\Praticando_C#_Alura.csproj.CoreCompileInputs.cache
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\Praticando_C#_Alura.dll
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\refint\Praticando_C#_Alura.dll
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\Praticando_C#_Alura.pdb
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\Praticando_C#_Alura.genruntimeconfig.cache
+C:\Users\020.720092\source\repos\Praticando_C#_Alura\Praticando_C#_Alura\obj\Debug\net10.0\ref\Praticando_C#_Alura.dll
