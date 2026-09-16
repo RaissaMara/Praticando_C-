@@ -6,129 +6,161 @@ namespace Praticando_C__Alura
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Console.WriteLine("Hello, World!");
 
-            //Exemplo alura (Ano 1997)
-            int anoNascimento = 2002;
-            int anoVigente = 2026;
+            ////Praticando_C#: Variáveis e Tipos
 
-            int idade = anoVigente - anoNascimento;
-            Console.WriteLine("Idade: " + idade);
+            ////Exemplo alura (Ano 1997)
+            //int anoNascimento = 2002;
+            //int anoVigente = 2026;
 
-            //Exemplo alura
-            float valorRecebido = 500.00f;
-            bool doacaoAnonima = true;
-            char tipoConta = 'P';
+            //int idade = anoVigente - anoNascimento;
+            //Console.WriteLine("Idade: " + idade);
 
-            Console.WriteLine("Valor recibido: R$" + valorRecebido);
-            Console.WriteLine("Doação Anônima: " + doacaoAnonima);
-            Console.WriteLine("Tipo de Conta:" + tipoConta);
+            ////Exemplo alura
+            //float valorRecebido = 500.00f;
+            //bool doacaoAnonima = true;
+            //char tipoConta = 'P';
 
-            //Meu exemplo de treino
-            double milha = 1.60934;
-            Console.Write("Digite a quantidade de milhas desejadas e converteremos para quilometragem:");
-            double quantidade = double.Parse(Console.ReadLine()!);
-            double equivalem = quantidade * milha;
-            Console.WriteLine($"{quantidade} milhas equivalem a {equivalem} quilomêtros");
+            //Console.WriteLine("Valor recibido: R$" + valorRecebido);
+            //Console.WriteLine("Doação Anônima: " + doacaoAnonima);
+            //Console.WriteLine("Tipo de Conta:" + tipoConta);
 
-            //Exemplo alura
-            double milhas = 10.0;
-            double quilometros = milhas * 1.60934;
-            Console.WriteLine(milhas + " milhas equivalem a " + quilometros + " quilomêtros.");
+            ////Meu exemplo de treino
+            //double milha = 1.60934;
+            //Console.Write("Digite a quantidade de milhas desejadas e converteremos para quilometragem:");
+            //double quantidade = double.Parse(Console.ReadLine()!);
+            //double equivalem = quantidade * milha;
+            //Console.WriteLine($"{quantidade} milhas equivalem a {equivalem} quilomêtros");
 
-            int totalMinutos = 250;
-            int horas = totalMinutos / 60;
-            int minutosRestante = totalMinutos % 60;
-            Console.Write($"Tempo: {horas} horas e {minutosRestante} minutos");
+            ////Exemplo alura
+            //double milhas = 10.0;
+            //double quilometros = milhas * 1.60934;
+            //Console.WriteLine(milhas + " milhas equivalem a " + quilometros + " quilomêtros.");
 
-            //Exemplo alura
-            int minutos = 250;
-            int hora = minutos / 60;
-            int restantesMinutos = minutos % 60;
+            //int totalMinutos = 250;
+            //int horas = totalMinutos / 60;
+            //int minutosRestante = totalMinutos % 60;
+            //Console.Write($"Tempo: {horas} horas e {minutosRestante} minutos");
 
-            Console.WriteLine("Tempo: " + hora + " horas e " + restantesMinutos + " minutos");
+            ////Exemplo alura
+            //int minutos = 250;
+            //int hora = minutos / 60;
+            //int restantesMinutos = minutos % 60;
 
-            double largura = 10.5;
-            double comprimento = 20.3;
+            //Console.WriteLine("Tempo: " + hora + " horas e " + restantesMinutos + " minutos");
 
-            double area = largura * comprimento;
-            Console.WriteLine($"A área do terreno é: {area} metros quadrados");
+            //double largura = 10.5;
+            //double comprimento = 20.3;
 
-            //Meu exemplo
-            Console.Write("Digite a nota do aluno 1:");
-            float aluno1 = float.Parse(Console.ReadLine()!);
-            Console.Write("Digite a nota do aluno 2:");
-            float aluno2 = float.Parse(Console.ReadLine()!);
-            Console.Write("Digite a nota do aluno 3:");
-            float aluno3 = float.Parse(Console.ReadLine()!);
+            //double area = largura * comprimento;
+            //Console.WriteLine($"A área do terreno é: {area} metros quadrados");
 
-            float soma = aluno1 + aluno2 + aluno3;
-            float media = soma / 3;
-            Console.WriteLine($"A média das notas é: {media}");
+            ////Meu exemplo
+            //Console.Write("Digite a nota do aluno 1:");
+            //float aluno1 = float.Parse(Console.ReadLine()!);
+            //Console.Write("Digite a nota do aluno 2:");
+            //float aluno2 = float.Parse(Console.ReadLine()!);
+            //Console.Write("Digite a nota do aluno 3:");
+            //float aluno3 = float.Parse(Console.ReadLine()!);
 
-            //Exemplo da Alura
-            float nota1 = 7.2f;
-            float nota2 = 8.3f;
-            float nota3 = 9.1f;
+            //float soma = aluno1 + aluno2 + aluno3;
+            //float media = soma / 3;
+            //Console.WriteLine($"A média das notas é: {media}");
 
-            float medias = (nota1 + nota2 + nota3) / 3;
+            ////Exemplo da Alura
+            //float nota1 = 7.2f;
+            //float nota2 = 8.3f;
+            //float nota3 = 9.1f;
 
-            Console.WriteLine("A média das notas é: " + medias);
+            //float medias = (nota1 + nota2 + nota3) / 3;
 
-            //Exemplo de Conversão
-            decimal pesoContainers = 18.75m;
-            int quantMinima = Convert.ToInt32(pesoContainers);
+            //Console.WriteLine("A média das notas é: " + medias);
 
-            Console.WriteLine("Quantidade Mínínima de veículos: " + quantMinima);
-           
-            //Exemplo no alura
-            decimal pesoContainer = 18.75m;
-            int veiculosNecessarios = (int)pesoContainer;
+            ////Exemplo de Conversão
+            //decimal pesoContainers = 18.75m;
+            //int quantMinima = Convert.ToInt32(pesoContainers);
 
-            Console.WriteLine("Veículos necessários: " + veiculosNecessarios);
+            //Console.WriteLine("Quantidade Mínínima de veículos: " + quantMinima);
 
-            //Criado por mim
-            int vidasIniciais = 5;
-            Console.WriteLine($"Você têm {vidasIniciais} vidas");
-            for (int i = 1; i <= 5; i++)
+            ////Exemplo no alura
+            //decimal pesoContainer = 18.75m;
+            //int veiculosNecessarios = (int)pesoContainer;
+
+            //Console.WriteLine("Veículos necessários: " + veiculosNecessarios);
+
+            ////Criado por mim
+            //int vidasIniciais = 5;
+            //Console.WriteLine($"Você têm {vidasIniciais} vidas");
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    Console.WriteLine($"Você usou {i} vida");
+            //}            
+            //vidasIniciais++;
+
+            //Console.WriteLine("Você conseguiu finalizar com: "+ vidasIniciais);
+
+            ////Exemplo do Alura
+            //int vidas = 5;
+            //vidas--;
+            //vidas++;
+            //vidas++;
+            //int vidasFinais = vidas;
+
+            //Console.WriteLine("Vidas finais: " + vidasFinais);
+
+            ////Para calcular o valor 
+            //Console.WriteLine("Digite o salário Atual:");
+            //decimal salarioAtual = decimal.Parse(Console.ReadLine()!);
+            //Console.WriteLine("Digite o Percentual Aumentado:");
+            //decimal percentualAumentado = decimal.Parse(Console.ReadLine()!);
+
+            //decimal novoSalario = salarioAtual + (salarioAtual * percentualAumentado / 100);
+
+            //Console.WriteLine("O novo salário é de R$" + novoSalario+",00");
+
+            ////Exemplo Alura
+            //decimal salariAtual = 1500.0m;
+            //decimal percentualAumento = 10.0m;
+            //decimal novSalario = salariAtual + (salariAtual * percentualAumento / 100);
+
+            //Console.WriteLine("O novo salário é de R$" + novSalario.ToString("F2"));
+
+            ////Calculando a área e o perímetro
+            //double pii = 3.14159;
+            //double raioo = 5.0;
+            //double areaa = pii * raioo * raioo;
+            //double perimetroC = 2 * pii * raioo;
+
+            //Console.WriteLine($"Raio:{raioo}");
+            //Console.WriteLine($"Área do Círculo:{areaa}");
+            //Console.WriteLine($"Perímetro do Círculo:{perimetroC}");
+
+            ////Exemplo alura
+            //double raio = 5.0;
+            //double pi = 3.14159;
+
+            //double area2 = pi * raio * raio;
+            //double perimetro = 2 * pi * raio;
+
+            //Console.WriteLine("Raio: " + raio.ToString("F2"));
+            //Console.WriteLine("Área do círculo: " + area2.ToString("F2"));
+            //Console.WriteLine("Perímetro do círculo: " + perimetro.ToString("F2"));
+
+            //Praticando_C#: Laços e Repetição
+
+            int contador = 10;
+            while (contador >= 1)
             {
-                Console.WriteLine($"Você usou {i} vida");
-            }            
-            vidasIniciais++;
+                Console.WriteLine(contador);
+                contador--;
+            }
 
-            Console.WriteLine("Você conseguiu finalizar com: "+ vidasIniciais);
-
-            //Exemplo do Alura
-            int vidas = 5;
-            vidas--;
-            vidas++;
-            vidas++;
-            int vidasFinais = vidas;
-
-            Console.WriteLine("Vidas finais: " + vidasFinais);
-
-            //Para calcular o valor 
-            Console.WriteLine("Digite o salário Atual:");
-            decimal salarioAtual = decimal.Parse(Console.ReadLine()!);
-            Console.WriteLine("Digite o Percentual Aumentado:");
-            decimal percentualAumentado = decimal.Parse(Console.ReadLine()!);
-
-            decimal novoSalario = salarioAtual + (salarioAtual * percentualAumentado / 100);
-
-            Console.WriteLine("O novo salário é de R$" + novoSalario+",00");
-
-            //Exemplo Alura
-            decimal salariAtual = 1500.0m;
-            decimal percentualAumento = 10.0m;
-            decimal novSalario = salariAtual + (salariAtual * percentualAumento / 100);
-
-            Console.WriteLine("O novo salário é de R$" + novSalario.ToString("F2"));
-
-            //Calculando a área e o perímetro
+            Console.WriteLine("Você chegou ao fim!");
 
 
-            //Exemplo alura
 
+            
 
         }
     }
