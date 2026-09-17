@@ -158,9 +158,39 @@ namespace Praticando_C__Alura
 
             Console.WriteLine("Você chegou ao fim!");
 
+            int opcao;
+            do
+            {
+                    Console.WriteLine("\nMENU:");
+                    Console.WriteLine("1 - Ver produtos");
+                    Console.WriteLine("2 - Fazer pedidos");
+                    Console.WriteLine("0 - Sair");
+                    Console.Write("Escolha uma opção: ");
+           
+                    opcao = int.Parse(Console.ReadLine()!);
 
-
+                switch (opcao)
+                {
+                    case 1:
+                        Console.WriteLine("Mostrando produtos...");
+                        break;
+                    case 2:
+                        Console.WriteLine("Fazer pedido");
+                        break;
+                    case 0:
+                        Console.WriteLine("Saindo...");
+                        break;
+                    default:
+                        Console.WriteLine("Escolha um número");
+                        break;
+                }
+                
+                Console.Clear();
+            } while (opcao != 0) ;
+                
             
+
+
 
         }
     }
