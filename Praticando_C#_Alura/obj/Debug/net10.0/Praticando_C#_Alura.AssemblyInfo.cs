@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Praticando_C#_Alura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb6bd82bb67a73a2ca8d448c9a2bd95ba361597a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b931722c15df7d573737bfef5f858e4f88738b31")]
 [assembly: System.Reflection.AssemblyProductAttribute("Praticando_C#_Alura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Praticando_C#_Alura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
