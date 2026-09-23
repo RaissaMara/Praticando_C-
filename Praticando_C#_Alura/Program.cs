@@ -1,4 +1,5 @@
 ﻿using System.Security.AccessControl;
+using System.Threading.Channels;
 
 namespace Praticando_C__Alura
 {
@@ -186,7 +187,7 @@ namespace Praticando_C__Alura
                 }
 
                 Console.Clear();
-            } while (opcao != 0);*/
+            } while (opcao != 0);
 
 
             // Exercícios
@@ -248,8 +249,54 @@ namespace Praticando_C__Alura
                 total += valor;
             } while (valor != 0);
 
-            Console.WriteLine("Total de vendas do dia: R$" + total);
+            Console.WriteLine("Total de vendas do dia: R$" + total);*/
 
+            //Minha tentativa
+
+            int valor;
+            int total = 0;
+
+            do
+            {
+
+                Console.WriteLine("Digite o valor da venda (ou 0 para encerrar): ");
+                valor = int.Parse(Console.ReadLine()!);
+
+                total += valor;
+
+            } while (valor != 0); 
+                Console.WriteLine($"Total de vendas do dia: R$ {total:F2}");
+
+               int escolha;
+            int estoqueAtual, quantidade = 0;
+            do 
+            { 
+            
+                Console.WriteLine("Deseja adicionar um produto ao estoque? \n1 - Sim | 0 - Não ");
+                Console.WriteLine("Escolha 1 ou 0 para adicionar um produto.");
+                escolha = int.Parse(Console.ReadLine());
+
+
+                switch (escolha)
+                {
+
+                    case 1: Console.WriteLine("Quantidade:");
+                            quantidade = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Estoque atual:");
+                            estoqueAtual = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Deseja continuar? \n1 - Sim | 0 - Não ");
+                        break;
+
+                    case 0: Console.WriteLine("Nenhum produto adicionado...");
+                            break;
+
+                    default: Console.WriteLine("Escolha ");
+                            break;
+                }
+                estoqueAtual += quantidade;
+
+            }while (escolha != 0);
+                     Console.WriteLine("Obrigado por usar nosso sistema de estoque!");
 
         }
 
