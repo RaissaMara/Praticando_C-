@@ -268,12 +268,13 @@ namespace Praticando_C__Alura
                 Console.WriteLine($"Total de vendas do dia: R$ {total:F2}");
 
                int escolha;
-            int estoqueAtual, quantidade = 0;
+            int quantidade = 0;
+            float estoqueAtual = 0;
+                Console.WriteLine("Deseja adicionar um produto ao estoque? \n1 - Sim | 0 - Não ");
+                Console.WriteLine("Escolha 1 ou 0 para adicionar um produto.");
             do 
             { 
             
-                Console.WriteLine("Deseja adicionar um produto ao estoque? \n1 - Sim | 0 - Não ");
-                Console.WriteLine("Escolha 1 ou 0 para adicionar um produto.");
                 escolha = int.Parse(Console.ReadLine());
 
 
@@ -282,21 +283,58 @@ namespace Praticando_C__Alura
 
                     case 1: Console.WriteLine("Quantidade:");
                             quantidade = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Estoque atual:");
-                            estoqueAtual = int.Parse(Console.ReadLine());
+                        Console.WriteLine($"Estoque atual: {estoqueAtual += quantidade}");
                             Console.WriteLine("Deseja continuar? \n1 - Sim | 0 - Não ");
+                                
                         break;
 
                     case 0: Console.WriteLine("Nenhum produto adicionado...");
                             break;
 
-                    default: Console.WriteLine("Escolha ");
+                    default: Console.WriteLine("Escolha  uma opção!");
                             break;
                 }
-                estoqueAtual += quantidade;
 
             }while (escolha != 0);
                      Console.WriteLine("Obrigado por usar nosso sistema de estoque!");
+
+            //Desafio Número Secreto
+            
+            Console.WriteLine($"\nTente adivinhar o número entre 1 e 10. ");
+       
+            int numeroSecreto;
+            
+            while (true) 
+            {
+            Console.WriteLine($"\n Digite um número entre 1 e 10: ");
+             numeroSecreto = int.Parse(Console.ReadLine()!);
+                
+                if (numeroSecreto != 7) 
+                {
+                    Console.WriteLine("Parabéns, você acertou!");
+                    break;
+                }
+                    Console.WriteLine("Errado! Tente novament.");
+                }
+
+            // Desafio respondido pelo alura
+            int segredo = 7;
+            int tentativa;
+
+            while (true)
+            {
+                Console.Write("Tente adivinhar o número entre 1 e 10: ");
+                tentativa = int.Parse(Console.ReadLine());
+
+                if (tentativa == segredo)
+                {
+                    Console.WriteLine("Parabéns, você acertou!");
+                    break;
+                }
+                Console.WriteLine("Errado! Tente novamente.");
+            }
+
+
 
         }
 
