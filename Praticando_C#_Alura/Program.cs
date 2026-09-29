@@ -1,4 +1,5 @@
-﻿using System.Security.AccessControl;
+﻿using System.Net.Http.Headers;
+using System.Security.AccessControl;
 using System.Threading.Channels;
 
 namespace Praticando_C__Alura
@@ -264,17 +265,17 @@ namespace Praticando_C__Alura
 
                 total += valor;
 
-            } while (valor != 0); 
-                Console.WriteLine($"Total de vendas do dia: R$ {total:F2}");
+            } while (valor != 0);
+            Console.WriteLine($"Total de vendas do dia: R$ {total:F2}");
 
-               int escolha;
+            int escolha;
             int quantidade = 0;
             float estoqueAtual = 0;
-                Console.WriteLine("Deseja adicionar um produto ao estoque? \n1 - Sim | 0 - Não ");
-                Console.WriteLine("Escolha 1 ou 0 para adicionar um produto.");
-            do 
-            { 
-            
+            Console.WriteLine("Deseja adicionar um produto ao estoque? \n1 - Sim | 0 - Não ");
+            Console.WriteLine("Escolha 1 ou 0 para adicionar um produto.");
+            do
+            {
+
                 escolha = int.Parse(Console.ReadLine());
 
 
@@ -282,40 +283,40 @@ namespace Praticando_C__Alura
                 {
 
                     case 1: Console.WriteLine("Quantidade:");
-                            quantidade = int.Parse(Console.ReadLine());
+                        quantidade = int.Parse(Console.ReadLine());
                         Console.WriteLine($"Estoque atual: {estoqueAtual += quantidade}");
-                            Console.WriteLine("Deseja continuar? \n1 - Sim | 0 - Não ");
-                                
+                        Console.WriteLine("Deseja continuar? \n1 - Sim | 0 - Não ");
+
                         break;
 
                     case 0: Console.WriteLine("Nenhum produto adicionado...");
-                            break;
+                        break;
 
                     default: Console.WriteLine("Escolha  uma opção!");
-                            break;
+                        break;
                 }
 
-            }while (escolha != 0);
-                     Console.WriteLine("Obrigado por usar nosso sistema de estoque!");
+            } while (escolha != 0);
+            Console.WriteLine("Obrigado por usar nosso sistema de estoque!");
 
             //Desafio Número Secreto
-            
+
             Console.WriteLine($"\nTente adivinhar o número entre 1 e 10. ");
-       
+
             int numeroSecreto;
-            
-            while (true) 
+
+            while (true)
             {
-            Console.WriteLine($"\n Digite um número entre 1 e 10: ");
-             numeroSecreto = int.Parse(Console.ReadLine()!);
-                
-                if (numeroSecreto != 7) 
+                Console.WriteLine($"\n Digite um número entre 1 e 10: ");
+                numeroSecreto = int.Parse(Console.ReadLine()!);
+
+                if (numeroSecreto != 7)
                 {
-                    Console.WriteLine("Parabéns, você acertou!");
+                    Console.WriteLine("Errado! Tente novament.");
                     break;
                 }
-                    Console.WriteLine("Errado! Tente novament.");
-                }
+                Console.WriteLine("Parabéns, você acertou!");
+            }
 
             // Desafio respondido pelo alura
             int segredo = 7;
@@ -334,6 +335,35 @@ namespace Praticando_C__Alura
                 Console.WriteLine("Errado! Tente novamente.");
             }
 
+            //Bucando em uma Lista
+
+           Console.WriteLine("Digite o nome do aluno: ");
+
+            List<string> nomes = new List<string>() { "Ana", "Carlos", "Bianca", "João", "Mariana" }
+            string nomeBusca = Console.ReadLine();
+
+            int indice = 0;
+            bool encontrado = false;
+
+            while (indice < nomes.Count) 
+            { 
+            
+                if (nomes[indice] == nomeBusca) 
+                { 
+                    encontrado = true;
+                    break;
+                }
+                indice++;
+            }
+            if (encontrado)
+            {
+                Console.WriteLine($"Nome encontrado na posição: {indice}");
+            }
+            else 
+            { 
+                Console.WriteLine("Nome não está presente na lista"); 
+            }
+            
 
 
         }
